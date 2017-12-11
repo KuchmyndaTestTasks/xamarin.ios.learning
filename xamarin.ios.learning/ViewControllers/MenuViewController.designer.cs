@@ -7,21 +7,22 @@
 using Foundation;
 using System;
 using System.CodeDom.Compiler;
+using UIKit;
 
-namespace xamarin.ios.learning
+namespace xamarin.ios.learning.ViewControllers
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("MenuViewController")]
+    partial class MenuViewController
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIStackView MenuStackView { get; set; }
+        UIKit.UIStackView MenuView { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (MenuStackView != null) {
-                MenuStackView.Dispose ();
-                MenuStackView = null;
+            if (MenuView != null) {
+                MenuView.Dispose ();
+                MenuView = null;
             }
         }
     }

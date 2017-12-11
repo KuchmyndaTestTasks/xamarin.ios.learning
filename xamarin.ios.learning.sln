@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin.ios.learning", "xamarin.ios.learning\xamarin.ios.learning.csproj", "{F09C8ED4-2E09-4C59-8226-E4EAA6B17D76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin.ios", "xamarin.ios.learning\xamarin.ios.csproj", "{F09C8ED4-2E09-4C59-8226-E4EAA6B17D76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
