@@ -9,11 +9,16 @@ namespace xamarin.ios.learning.ViewControllers
     {
         MenuModel model = new MenuModel();
 
-        public MenuViewController() : base("MenuViewController", null)
+        public MenuViewController(IntPtr ptr):base(ptr)
+        {
+            
+        }
+
+        private void Init1()
         {
             MenuView.Alignment = UIStackViewAlignment.Center;
 
-            foreach(var item in model.Buttons)
+            foreach (var item in model.Buttons)
             {
                 UIButton button = new UIButton(new CoreGraphics.CGRect(0, 0, 150, 24));
                 button.SetTitle(item.title, UIControlState.Normal);
@@ -28,6 +33,8 @@ namespace xamarin.ios.learning.ViewControllers
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+
+            Init1();
             // Perform any additional setup after loading the view, typically from a nib.
         }
 
