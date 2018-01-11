@@ -10,6 +10,7 @@ namespace newapp.ViewControllers
         {
             Events = new(string, Action)[] { 
                 ("simple alert", ()=>ShowSimpleAlert()),
+                ("simple alert", ()=>ShowSimpleAlert()),
             };
         }
 

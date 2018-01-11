@@ -96,6 +96,7 @@
     <Folder Include="ViewControllers\Tips\" />
     <Folder Include="ViewControllers\Dialogs\" />
     <Folder Include="ViewControllers\Controls\" />
+    <Folder Include="ViewControllers\Media\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -104,6 +105,7 @@
     <InterfaceDefinition Include="ViewControllers\Controls\ControlsViewController.xib" />
     <InterfaceDefinition Include="ViewControllers\Tips\TipsViewController.xib" />
     <InterfaceDefinition Include="ViewControllers\Dialogs\DialogsViewController.xib" />
+    <InterfaceDefinition Include="ViewControllers\Media\MediaViewController.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -128,6 +130,10 @@
     <Compile Include="ViewControllers\Dialogs\DialogsViewController.cs" />
     <Compile Include="ViewControllers\Dialogs\DialogsViewController.designer.cs">
       <DependentUpon>DialogsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\Media\MediaViewController.cs" />
+    <Compile Include="ViewControllers\Media\MediaViewController.designer.cs">
+      <DependentUpon>MediaViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

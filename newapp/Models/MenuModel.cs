@@ -1,6 +1,8 @@
 ﻿using System;
 using UIKit;
 using newapp.ViewControllers;
+using newapp.ViewControllers.Media;
+
 namespace newapp.Models
 {
     public class MenuModel
@@ -15,7 +17,8 @@ namespace newapp.Models
             Events = new(string, Action)[] {
                 ("Dialogs",()=>RedirectTo("Dialogs", new DialogsViewController())),
                 ("Tips",()=> RedirectTo("Tips", new TipsViewController())),
-                ("Controls",()=>RedirectTo("Controls", new ControlsViewController()))
+                ("Controls",()=>RedirectTo("Controls", new ControlsViewController())),  
+                ("Media",()=>RedirectTo("Media", new MediaViewController()))
             };
         }
 
